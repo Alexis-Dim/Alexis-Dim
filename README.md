@@ -5,7 +5,7 @@
 </h1>
 
 
-<h3 align="center">A software developer and tech enthusiast in Greece 🇬🇷</h3>
+<h3 align="center">A Software Developer and Tech Enthusiast in Greece 🇬🇷</h3>
 
 <br/>
 
