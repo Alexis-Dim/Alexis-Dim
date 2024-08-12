@@ -15,7 +15,7 @@
 
 ## Spaceship Animation
 
-Check out my spaceship animation [here](https://alexis-dim.github.io/Alexis-Dim/Spaceship.html)!
+Check out my spaceship animation [here](https://alexis-dim.github.io/Alexis-Dim/)!
 
 </div>
 
