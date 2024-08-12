@@ -99,7 +99,7 @@
 
         let angle = 0; // Initial angle
         let greenBoxCount = 0; // Track number of green boxes
-        let animationFrameId; // Track the animation frame ID
+        let animationId; // To track the animation frame
 
         function resetGrid() {
             // Clear the existing grid
@@ -139,7 +139,7 @@
             spaceship.style.left = `${x}px`;
             spaceship.style.top = `${y}px`;
 
-            animationFrameId = requestAnimationFrame(animate); // Request next frame
+            animationId = requestAnimationFrame(animate); // Store the animation frame ID
         }
 
         function createBeam() {
@@ -158,7 +158,7 @@
             document.body.appendChild(beam); // Append to body so it doesn't follow spaceship animation
 
             // Start the beam movement
-            const beamAnimation = requestAnimationFrame(() => moveBeam(beam));
+            requestAnimationFrame(() => moveBeam(beam));
         }
 
         function moveBeam(beam) {
@@ -184,8 +184,8 @@
                     greenBoxCount--; // Decrease the count of green boxes
 
                     if (greenBoxCount === 0) {
-                        // All green boxes are hit, restart the animation
-                        resetAnimation();
+                        // All green boxes are hit, reset the grid
+                        resetGrid();
                     }
                 }
             });
@@ -203,21 +203,7 @@
 
         function shootBeamsContinuously() {
             createBeam(); // Create a single beam
-            setTimeout(shootBeamsContinuously, 100); // Schedule the next shot
-        }
-
-        function resetAnimation() {
-            // Stop the current animation
-            cancelAnimationFrame(animationFrameId); // Cancel the ongoing animation
-
-            // Reset the grid and green box count
-            resetGrid();
-
-            // Reset the angle to prevent cumulative speed
-            angle = 0;
-
-            // Restart the spaceship animation
-            animate();
+            setTimeout(shootBeamsContinuously, 50); // Schedule the next shot
         }
 
         // Initialize the grid and start the animation
