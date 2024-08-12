@@ -15,20 +15,10 @@
   <h2>🎮 Pac-Man Animation 🎮</h2>
   <br>
   <!-- Pac-Man Animation -->
-  <div style="position: relative; width: 100%; height: 100px; overflow: hidden;">
-    <div style="position: absolute; width: 20px; height: 20px; background: yellow; border-radius: 50%; clip-path: polygon(0% 0%, 100% 50%, 0% 100%); animation: movePacman 10s linear infinite;">
-      <div style="width: 100%; height: 100%; background: yellow; border-radius: 50%; clip-path: polygon(0% 0%, 100% 50%, 0% 100%); transform: rotate(45deg);"></div>
-    </div>
-  </div>
+  
 
-  <style>
-    @keyframes movePacman {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(100%); }
-    }
-  </style>
+  
 
-  <br/><br/><br/>
 </div>
 
 <hr/>
