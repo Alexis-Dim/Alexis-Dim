@@ -13,7 +13,7 @@
 
 <div align="center">
 
-## Spaceship Animation
+## Contribution Spaceship Shooter Animation
 
 </div>
 <img src="Animation.svg" alt="Spaceship Animation" width="100%" height="400">
