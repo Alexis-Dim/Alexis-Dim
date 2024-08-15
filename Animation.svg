@@ -4,7 +4,6 @@
     <defs>
         <!-- Define a pattern for the grid with smaller boxes -->
         <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
-            <rect width="10" height="10" fill="#24292e"/> <!-- Dark grey -->
             <rect x="2" y="2" width="8" height="8" fill="#2b3137" rx="2" ry="2"/> <!-- Light grey box with rounded corners -->
         </pattern>
     </defs>
