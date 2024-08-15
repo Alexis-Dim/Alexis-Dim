@@ -101,7 +101,7 @@
 
     
     <!-- Simple spaceship -->
-    <image id="spaceship" xlink:href="C:\Users\Alexis\Desktop\SpaceShip-Destroys-Contribution-Map\Spaceship.png" x="0" y="160" width="40" height="40" />
+    <image id="spaceship" xlink:href="https://raw.githubusercontent.com/Alexis-Dim/Alexis-Dim/main/Spaceship.png" x="0" y="160" width="40" height="40"/>
     <animateMotion xlink:href="#spaceship" dur="15s" repeatCount="indefinite">
         <mpath xlink:href="#path"/>
     </animateMotion>
