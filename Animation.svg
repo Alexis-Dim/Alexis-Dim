@@ -11,7 +11,7 @@
         </circle>
 
         <!-- Embed Spaceship SVG content -->
-        <g id="spaceship" transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)">
+        <g id="spaceship" transform="translate(400, 175) scale(1)">
             <path d="M151 280 c0 -20 -6 -41 -13 -48 -7 -7 -9 -12 -5 -12 4 0 1 -15 -7
             -34 -8 -19 -12 -37 -10 -40 2 -3 1 -4 -2 -1 -4 2 -24 -5 -45 -16 l-39 -19 -2
             37 -1 38 -4 -35 c-3 -19 -9 -39 -14 -44 -14 -15 -11 -29 6 -22 19 7 77 -12 92
