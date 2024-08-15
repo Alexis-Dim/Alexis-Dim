@@ -16,13 +16,12 @@
 ## Contribution Spaceship Shooter Animation
 
 </div>
-<img src="Animation.svg" alt="Spaceship Animation" width="100%" height="400">
+![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
 <hr/>
 
+<img src="Animation.svg" alt="Spaceship Animation" width="100%" height="400">
 
-![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
 
-<img src="https://your-github-pages-site.github.io/alexis-animation/Animation.svg" alt="Spaceship Animation" width="100%" height="400">
 
 <!---
 Alexis-Dim/Alexis-Dim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
