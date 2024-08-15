@@ -16,6 +16,7 @@
 ## Spaceship Animation
 
 </div>
+<img src="Animation.svg" alt="Spaceship Animation" width="100%" height="400">
 
 <hr/>
 
