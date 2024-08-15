@@ -31,6 +31,69 @@
     <!-- Background rectangle with grid pattern -->
     <rect width="530" height="70" fill="url(#grid)" x="120" y="20"/>
 
+    <!-- Green boxes with animations -->
+    <rect x="152" y="22" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate 
+            attributeName="opacity" 
+            values="1;1;0;0;1;1" 
+            keyTimes="0;0.034;0.07;0.28;0.3;1" 
+            dur="15s" 
+            begin="0s" 
+            repeatCount="indefinite" />
+    </rect>
+    <rect x="192" y="42" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="1.2s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="232" y="62" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="1.6s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="4.4s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="272" y="32" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="2.1s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="4.7s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="312" y="32" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="2.7s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="4.9s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="332" y="42" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="3.2s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="5.1s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="362" y="72" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="3.7s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="5.3s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="412" y="62" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="4.3s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="462" y="32" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="4.8s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="5.8s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="492" y="42" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="5.2s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="11.9s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="512" y="62" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="5.6s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="11.6s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="532" y="52" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="6.1s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="11.3s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="582" y="22" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="6.7s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="10.9s" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="622" y="32" width="8" height="8" fill="green" rx="2" ry="2">
+        <animate attributeName="opacity" from="1" to="0" begin="7.2s" dur="0.5s" fill="freeze" />
+        <animate attributeName="opacity" from="0" to="1" begin="10.5s" dur="0.5s" fill="freeze" />
+    </rect>
+
     <!-- Spaceship image -->
     <use href="#spaceship" x="0" y="160" width="40" height="40"/>
 
