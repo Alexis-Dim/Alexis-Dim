@@ -11,6 +11,10 @@
 <br/>
 <hr/>
 
+## Contribution Spaceship Shooter Animation
+![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
+<hr/>
+
 <div align="center">
     ## Contribution Spaceship Shooter Animation
     ![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
