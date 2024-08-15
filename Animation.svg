@@ -3,7 +3,7 @@
     <!-- Define a pattern for the grid with smaller boxes -->
     <defs>
         <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
-            <rect x="2" y="2" width="8" height="8" fill="#2b3137" rx="2" ry="2"/>
+            <rect x="2" y="2" width="8" height="8" fill="#24292e" rx="2" ry="2"/>
         </pattern>
 
         <!-- Define bullets -->
