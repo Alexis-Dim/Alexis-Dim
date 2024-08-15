@@ -1,3 +1,41 @@
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-    <image href="https://raw.githubusercontent.com/Alexis-Dim/Alexis-Dim/main/Spaceship.png" x="0" y="0" width="100" height="100"/>
+<svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350">
+    <!-- Define a pattern for the grid with smaller boxes -->
+    <defs>
+        <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+            <rect x="2" y="2" width="8" height="8" fill="#2b3137" rx="2" ry="2"/>
+        </pattern>
+
+        <!-- Define bullets -->
+        <circle id="bullet1" cx="20" cy="160" r="5" fill="red">
+            <animate attributeName="cy" from="160" to="-200" dur="0.5s" begin="0s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- Embed Spaceship SVG -->
+        <g id="spaceship">
+            <!-- Replace with actual SVG code from Spaceship.svg -->
+            <path d="M10 10 h 80 v 80 h -80 Z" fill="blue"/> <!-- Example path, replace with actual SVG content -->
+        </g>
+    </defs>
+
+    <!-- Background rectangle with grid pattern -->
+    <rect width="530" height="70" fill="url(#grid)" x="120" y="20"/>
+
+    <!-- Spaceship image -->
+    <use href="#spaceship" x="0" y="160" width="32" height="32"/>
+
+    <!-- Path definition for the spaceship's motion -->
+    <path id="path" d="
+        M 100 50
+        A 50 30 0 0 1 300 50
+        A 50 30 0 0 0 500 50
+        A 50 30 0 0 1 650 50
+        A 50 20 0 1 1 500 50
+        A 50 20 0 1 0 300 50
+        A 50 20 0 1 1 100 50
+        " fill="none" stroke="none"/>
+
+    <!-- Spaceship movement animation -->
+    <animateMotion href="#spaceship" dur="15s" repeatCount="indefinite">
+        <mpath href="#path"/>
+    </animateMotion>
 </svg>
