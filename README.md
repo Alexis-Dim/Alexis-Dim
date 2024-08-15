@@ -17,6 +17,7 @@
 
 <div align="center">
     ## Contribution Spaceship Shooter Animation
+    <hr/>
     <img src="Animation.svg" alt="Spaceship Animation" width="800" height="400">
 </div>
 
