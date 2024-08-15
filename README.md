@@ -12,13 +12,12 @@
 <hr/>
 
 <div align="center">
-
-## Contribution Spaceship Shooter Animation
-![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
-<hr/>
-
-## Contribution Spaceship Shooter Animation
-<img src="Animation.svg" alt="Spaceship Animation" width="800" height="400">
+    ## Contribution Spaceship Shooter Animation
+    ![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
+    <hr/>
+    ## Contribution Spaceship Shooter Animation
+    <img src="Animation.svg" alt="Spaceship Animation" width="800" height="400">
+</div>
 
 <!---
 Alexis-Dim/Alexis-Dim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
