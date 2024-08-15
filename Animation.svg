@@ -73,7 +73,7 @@
     </rect>
 
     <!-- Spaceship image -->
-    <image id="spaceship" href="https://raw.githubusercontent.com/Alexis-Dim/Alexis-Dim/main/Spaceship.png" x="0" y="160" width="32" height="32"/>
+    <image id="spaceship" href="https://raw.githubusercontent.com/Alexis-Dim/Alexis-Dim/main/Spaceship.png" x="0" y="160" width="31" height="32"/>
 
     <!-- Path definition for the spaceship's motion -->
     <path id="path" d="
