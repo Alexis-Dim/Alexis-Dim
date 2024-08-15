@@ -9,7 +9,7 @@
     </defs>
 
     <!-- Apply the pattern to cover the grid area with exact dimensions -->
-    <rect width="530" height="70" fill="url(#grid)" x="130" y="20"/>
+    <rect width="530" height="70" fill="url(#grid)" x="120" y="20"/>
 
     <!-- Add green boxes to the grid -->
     <!-- Adjusted positions -->
