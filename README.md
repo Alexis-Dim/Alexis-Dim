@@ -15,7 +15,7 @@
 
 ## Contribution Spaceship Shooter Animation
 
-</div>
+
 ![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
 <hr/>
 
