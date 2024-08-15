@@ -1,7 +1,5 @@
 <svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350">
 
-    <rect width="800" height="350" fill="#24292e"/>
-
     <!-- Define a pattern for the grid with smaller boxes -->
     <defs>
         <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
@@ -31,6 +29,9 @@
             fill="#D3D3D3"/> <!-- Light grey body -->
         </g>
     </defs>
+    
+    <!-- Background rectangle with grid pattern -->
+    <rect width="530" height="70" fill="url(#grid)" x="120" y="20"/>
 
     <!-- Green boxes with animations -->
     <rect x="152" y="22" width="8" height="8" fill="green" rx="2" ry="2">
