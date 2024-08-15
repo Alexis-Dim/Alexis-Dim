@@ -17,6 +17,8 @@
 ![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
 <hr/>
 
+![Background Color Box](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/color-box.png)
+
 <img src="Animation.svg" alt="Spaceship Animation" width="100%" height="400">
 
 <!---
