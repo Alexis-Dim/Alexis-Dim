@@ -74,9 +74,6 @@
 
     <!-- Spaceship image -->
     <image id="spaceship" href="https://raw.githubusercontent.com/Alexis-Dim/Alexis-Dim/main/Spaceship.png" x="0" y="160" width="40" height="40"/>
-    <animateMotion xlink:href="#spaceship" dur="15s" repeatCount="indefinite">
-        <mpath xlink:href="#path"/>
-    </animateMotion>
 
     <!-- Path definition for the spaceship's motion -->
     <path id="path" d="
@@ -89,11 +86,15 @@
         A 50 20 0 1 1 100 50
         " fill="none" stroke="none"/>
 
+    <!-- Spaceship movement animation -->
+    <animateMotion href="#spaceship" dur="15s" repeatCount="indefinite">
+        <mpath href="#path"/>
+    </animateMotion>
+
     <!-- Continuous shooting effect -->
     <use href="#bullet1" x="0" y="0">
         <animateMotion dur="15s" repeatCount="indefinite">
             <mpath href="#path"/>
         </animateMotion>
     </use>
-
 </svg>
