@@ -1,9 +1,11 @@
 <svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350">
 
+    <rect width="800" height="350" fill="#24292e"/>
+
     <!-- Define a pattern for the grid with smaller boxes -->
     <defs>
         <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
-            <rect x="2" y="2" width="8" height="8" fill="#24292e" rx="2" ry="2"/>
+            <rect x="2" y="2" width="8" height="8" fill="#2b3137" rx="2" ry="2"/>
         </pattern>
 
         <!-- Define bullets -->
@@ -43,6 +45,8 @@
             begin="0s" 
             repeatCount="indefinite" />
     </rect>
+
+
 
 
     <rect x="192" y="42" width="8" height="8" fill="green" rx="2" ry="2">
@@ -99,7 +103,7 @@
     </rect>
 
     <!-- Spaceship image -->
-    <use href="#spaceship" x="0" y="160" width="40" height="40"/>
+    <use href="#spaceship" x="4" y="160" width="40" height="40"/>
 
     <!-- Path definition for the spaceship's motion -->
     <path id="path" d="
