@@ -7,7 +7,7 @@
         </pattern>
 
         <!-- Define bullets -->
-        <circle id="bullet1" cx="-35" r="5" fill="red">
+        <circle id="bullet1" cx="-30" r="5" fill="red">
             <animate attributeName="cy" from="200" to="-200" dur="0.5s" begin="0s" repeatCount="indefinite"/>
         </circle>
 
@@ -31,7 +31,7 @@
     </defs>
     
     <!-- Background rectangle with grid pattern -->
-    <rect width="625" height="85" fill="url(#grid)" x="97" y="12"/>
+    <rect width="635" height="85" fill="url(#grid)" x="85" y="12"/>
 
     <!-- Green boxes with animations -->
     <rect x="152" y="22" width="8" height="8" fill="green" rx="2" ry="2">
@@ -106,12 +106,12 @@
     <!-- Path definition for the spaceship's motion -->
     <path id="path" d="
         M 100 50
-        A 70 30 0 0 1 400 50
-        A 70 30 0 0 0 600 50
-        A 70 30 0 0 1 750 50
-        A 70 30 0 1 1 600 50
-        A 70 30 0 1 0 400 50
-        A 70 30 0 1 1 100 50
+        A 25 20 0 0 1 300 50
+        A 70 20 0 0 0 550 50
+        A 25 20 0 0 1 780 50
+        A 70 20 0 1 1 550 50
+        A 25 20 0 1 0 300 50
+        A 70 20 0 1 1 100 50
         " fill="none" stroke="none"/>
 
     <!-- Spaceship movement animation -->
