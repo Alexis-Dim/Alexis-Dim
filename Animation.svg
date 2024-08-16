@@ -1,19 +1,18 @@
 <svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350">
 
-
     <!-- Define a pattern for the grid with smaller boxes -->
     <defs>
-        <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
-            <rect x="2" y="2" width="8" height="8" fill="#2b3137" rx="2" ry="2"/>
+        <pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse">
+            <rect x="2" y="2" width="10" height="10" fill="#2b3137" rx="3" ry="3"/>
         </pattern>
 
         <!-- Define bullets -->
-        <circle id="bullet1" cx="20" cy="160" r="5" fill="red">
-            <animate attributeName="cy" from="160" to="-200" dur="0.5s" begin="0s" repeatCount="indefinite"/>
+        <circle id="bullet1" cx="-35" r="5" fill="red">
+            <animate attributeName="cy" from="200" to="-200" dur="0.5s" begin="0s" repeatCount="indefinite"/>
         </circle>
 
         <!-- Define Spaceship SVG content with light grey color -->
-        <g id="spaceship" transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)">
+        <g id="spaceship" transform="translate(0.000000,32.000000) scale(0.120000,-0.120000)">
             <!-- Body of the spaceship with light grey color -->
             <path d="M151 280 c0 -20 -6 -41 -13 -48 -7 -7 -9 -12 -5 -12 4 0 1 -15 -7
             -34 -8 -19 -12 -37 -10 -40 2 -3 1 -4 -2 -1 -4 2 -24 -5 -45 -16 l-39 -19 -2
@@ -32,7 +31,7 @@
     </defs>
     
     <!-- Background rectangle with grid pattern -->
-    <rect width="530" height="70" fill="url(#grid)" x="120" y="20"/>
+    <rect width="625" height="85" fill="url(#grid)" x="97" y="12"/>
 
     <!-- Green boxes with animations -->
     <rect x="152" y="22" width="8" height="8" fill="green" rx="2" ry="2">
@@ -102,17 +101,17 @@
     </rect>
 
     <!-- Spaceship image -->
-    <use href="#spaceship" x="4" y="160" width="40" height="40"/>
+    <use href="#spaceship" x="-50" y="200"/>
 
     <!-- Path definition for the spaceship's motion -->
     <path id="path" d="
         M 100 50
-        A 50 30 0 0 1 300 50
-        A 50 30 0 0 0 500 50
-        A 50 30 0 0 1 650 50
-        A 50 20 0 1 1 500 50
-        A 50 20 0 1 0 300 50
-        A 50 20 0 1 1 100 50
+        A 70 30 0 0 1 400 50
+        A 70 30 0 0 0 600 50
+        A 70 30 0 0 1 750 50
+        A 70 30 0 1 1 600 50
+        A 70 30 0 1 0 400 50
+        A 70 30 0 1 1 100 50
         " fill="none" stroke="none"/>
 
     <!-- Spaceship movement animation -->
