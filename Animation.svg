@@ -1,6 +1,5 @@
 <svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350">
 
-    <rect width="800" height="350" fill="#24292e"/>
 
     <!-- Define a pattern for the grid with smaller boxes -->
     <defs>
