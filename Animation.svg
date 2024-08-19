@@ -1,6 +1,4 @@
 <svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350">
-    <!-- Background rectangle to match grid line color -->
-    <rect width="800" height="350" fill="#24292e"/>
 
     <defs>
         <!-- Define a pattern for the grid with smaller boxes -->
