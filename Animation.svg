@@ -54,7 +54,7 @@
         <rect width="635" height="85" fill="url(#grid)" x="85" y="12"/>
     
         <!-- Green boxes with animations (Row 1(x=86,y=14), Row 2(x=R1+12,R2y=R1+12) ex.) (Fade out Difference = approx. 0.01) -->
-        <rect x="98" y="26" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="98" y="26" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -64,7 +64,7 @@
                 repeatCount="indefinite" />
         </rect>
         
-        <rect x="146" y="38" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="146" y="38" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -74,7 +74,7 @@
                 repeatCount="indefinite" />
         </rect>
     
-        <rect x="194" y="74" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="194" y="74" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -84,7 +84,7 @@
                 repeatCount="indefinite" />
         </rect>
     
-        <rect x="242" y="38" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="242" y="38" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -94,7 +94,7 @@
                 repeatCount="indefinite" />
         </rect>
     
-        <rect x="278" y="38" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="278" y="38" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -104,7 +104,7 @@
                 repeatCount="indefinite" />
         </rect>
         
-        <rect x="338" y="26" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="338" y="26" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -114,7 +114,7 @@
                 repeatCount="indefinite" />
         </rect>
     
-        <rect x="386" y="74" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="386" y="74" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -124,7 +124,7 @@
                 repeatCount="indefinite" />
         </rect>
     
-        <rect x="446" y="50" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="446" y="50" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -134,7 +134,7 @@
                 repeatCount="indefinite" />
         </rect>
     
-        <rect x="482" y="38" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="482" y="38" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -144,7 +144,7 @@
                 repeatCount="indefinite" />
         </rect>
     
-        <rect x="518" y="62" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="518" y="62" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -154,7 +154,7 @@
                 repeatCount="indefinite" />
         </rect>
     
-        <rect x="566" y="50" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="566" y="50" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -164,7 +164,7 @@
                 repeatCount="indefinite" />
         </rect>
         
-        <rect x="626" y="26" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="626" y="26" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
@@ -174,7 +174,7 @@
                 repeatCount="indefinite" />
         </rect>
         
-        <rect x="674" y="50" width="10" height="10" fill="green" rx="2" ry="2">
+        <rect x="674" y="50" width="10" height="10" fill="#2dba4e" rx="2" ry="2">
             <animate 
                 attributeName="opacity" 
                 values="1;1;0;0;1;1" 
