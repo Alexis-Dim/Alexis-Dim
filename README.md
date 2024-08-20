@@ -21,7 +21,7 @@
     
 ## Contribution Spaceship Shooter Animation
     
-<img src="Animation.svg" alt="Spaceship Animation" width="800" height="400">
+<img src="Animation.svg" alt="Spaceship Animation" width="800" height="350">
 <hr/>
 
 <!---
