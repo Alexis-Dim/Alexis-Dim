@@ -1,5 +1,8 @@
 <svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 350">
 
+    <!-- Background rectangle to match grid line color -->
+        <rect width="800" height="350" fill="#24292e"/>
+    
         <defs>
             <!-- Define a pattern for the grid with smaller boxes -->
             <pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse">
@@ -339,7 +342,7 @@
         />
 
         <!-- Explosion 4 -->
-        <circle id="explosion4" cx="242" cy="38" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
+        <circle id="explosion4" cx="242" cy="38" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="15" filter="url(#explosionFilter)" />
         <animate 
             xlink:href="#explosion4" 
             attributeName="r" 
@@ -651,11 +654,11 @@
         />
 
         <!-- Explosion 12 -->
-        <circle id="explosion12" cx="626" cy="26" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
+        <circle id="explosion12" cx="626" cy="26" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="25" filter="url(#explosionFilter)" />
         <animate 
             xlink:href="#explosion12" 
             attributeName="r" 
-            values="0;50;0" 
+            values="0;120;0" 
             keyTimes="0;0.25;1" 
             dur="15s" 
             begin="6.0s" 
@@ -674,7 +677,7 @@
             xlink:href="#explosion12" 
             attributeName="fill-opacity" 
             values="1;0;0" 
-            keyTimes="0;0.2;1" 
+            keyTimes="0;0.3;1" 
             dur="15s" 
             begin="6.0s" 
             repeatCount="indefinite" 
@@ -727,9 +730,6 @@
             begin="6.5s" 
             repeatCount="indefinite" 
         />
-
-
-
 
         <!-- Sound Waves -->
         <!-- Second Sound Waves for Box 2 -->
@@ -796,7 +796,30 @@
             repeatCount="indefinite" 
         />
 
-        <!-- Sound Wave 5 -->
+        <!-- Sound Wave 4.1 -->
+        <circle id="soundWave4.1" cx="242" cy="38" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+        <animate 
+            xlink:href="#soundWave4.1" 
+            attributeName="r" 
+            values="0;80;120;0" 
+            keyTimes="0;0.2;0.5;1" 
+            dur="15s" 
+            begin="2s" 
+            repeatCount="indefinite" 
+        />
+        <animate 
+            xlink:href="#soundWave4.1" 
+            attributeName="stroke-opacity" 
+            values="1;0;0" 
+            keyTimes="0;0.5;1" 
+            dur="15s" 
+            begin="2s" 
+            repeatCount="indefinite" 
+        />
+
+
+
+        <!-- Sound Wave 5.1 -->
         <circle id="soundWave5.1" cx="278" cy="38" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
         <animate 
             xlink:href="#soundWave5.1" 
@@ -858,6 +881,155 @@
             begin="2.5s" 
             repeatCount="indefinite" 
         />
+
+        <!-- Sound Wave 8.1 -->
+        <circle id="soundWave8.1" cx="446" cy="50" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+        <animate 
+            xlink:href="#soundWave8.1" 
+            attributeName="r" 
+            values="0;40;60;0" 
+            keyTimes="0;0.2;0.5;1" 
+            dur="15s" 
+            begin="5s" 
+            repeatCount="indefinite" 
+        />
+        <animate 
+            xlink:href="#soundWave8.1" 
+            attributeName="stroke-opacity" 
+            values="1;0;0" 
+            keyTimes="0;0.5;1" 
+            dur="15s" 
+            begin="5s" 
+            repeatCount="indefinite" 
+        />
+        
+        <!-- Wave 8.3 -->
+        <circle id="soundWave8.3" cx="446" cy="50" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+        <animate 
+            xlink:href="#soundWave8.3" 
+            attributeName="r" 
+            values="0;50;90;0" 
+            keyTimes="0;0.2;0.5;1" 
+            dur="15s" 
+            begin="3.9s" 
+            repeatCount="indefinite" 
+        />
+        <animate 
+            xlink:href="#soundWave8.3" 
+            attributeName="stroke-opacity" 
+            values="1;0;0" 
+            keyTimes="0;0.5;1" 
+            dur="15s" 
+            begin="3.9s" 
+            repeatCount="indefinite" 
+        />
+
+        <!-- Sound Wave 11.1 -->
+        <circle id="soundWave11.1" cx="566" cy="50" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+        <animate 
+            xlink:href="#soundWave11.1" 
+            attributeName="r" 
+            values="0;35;110;0" 
+            keyTimes="0;0.2;0.5;1" 
+            dur="15s" 
+            begin="6s" 
+            repeatCount="indefinite" 
+        />
+        <animate 
+            xlink:href="#soundWave11.1" 
+            attributeName="stroke-opacity" 
+            values="1;0;0" 
+            keyTimes="0;0.5;1" 
+            dur="15s" 
+            begin="6s" 
+            repeatCount="indefinite" 
+        />
+
+        <!-- Wave 11.2 -->
+        <circle id="soundWave11.2" cx="566" cy="50" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+        <animate 
+            xlink:href="#soundWave11.2" 
+            attributeName="r" 
+            values="0;60;120;0" 
+            keyTimes="0;0.2;0.5;1" 
+            dur="15s" 
+            begin="5.7s" 
+            repeatCount="indefinite" 
+        />
+        <animate 
+            xlink:href="#soundWave11.2" 
+            attributeName="stroke-opacity" 
+            values="1;0;0" 
+            keyTimes="0;0.5;1" 
+            dur="15s" 
+            begin="5.7s" 
+            repeatCount="indefinite" 
+        />
+
+        <!-- Wave 11.3 -->
+        <circle id="soundWave11.3" cx="566" cy="50" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+        <animate 
+            xlink:href="#soundWave11.3" 
+            attributeName="r" 
+            values="0;70;140;0" 
+            keyTimes="0;0.2;0.5;1" 
+            dur="15s" 
+            begin="5.4s" 
+            repeatCount="indefinite" 
+        />
+        <animate 
+            xlink:href="#soundWave11.3" 
+            attributeName="stroke-opacity" 
+            values="1;0;0" 
+            keyTimes="0;0.5;1" 
+            dur="15s" 
+            begin="5.4s" 
+            repeatCount="indefinite" 
+        />
+
+        <!-- Sound Wave 12.1 -->
+        <circle id="soundWave12.1" cx="626" cy="26" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+        <animate 
+            xlink:href="#soundWave12.1" 
+            attributeName="r" 
+            values="0;150;180;0" 
+            keyTimes="0;0.2;0.5;1" 
+            dur="15s" 
+            begin="6s" 
+            repeatCount="indefinite" 
+        />
+        <animate 
+            xlink:href="#soundWave12.1" 
+            attributeName="stroke-opacity" 
+            values="1;0;0" 
+            keyTimes="0;0.5;1" 
+            dur="15s" 
+            begin="6s" 
+            repeatCount="indefinite" 
+        />
+
+        <!-- Sound Wave 13.1 -->
+        <circle id="soundWave13.1" cx="674" cy="50" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+        <animate 
+            xlink:href="#soundWave13.1" 
+            attributeName="r" 
+            values="0;80;130;0" 
+            keyTimes="0;0.2;0.5;1" 
+            dur="15s" 
+            begin="6.5s" 
+            repeatCount="indefinite" 
+        />
+        <animate 
+            xlink:href="#soundWave13.1" 
+            attributeName="stroke-opacity" 
+            values="1;0;0" 
+            keyTimes="0;0.5;1" 
+            dur="15s" 
+            begin="6.5s" 
+            repeatCount="indefinite" 
+        />
+
+
 
 
 
