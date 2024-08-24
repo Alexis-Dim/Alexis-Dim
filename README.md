@@ -17,7 +17,7 @@
 ![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
 <hr/>
 
-<div align="center">
+
  
 <!---
 Alexis-Dim/Alexis-Dim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
