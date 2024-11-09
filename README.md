@@ -7,8 +7,7 @@
 </h1>
 
 <h3 align="center">A Software Developer and Tech Enthusiast in Greece 🇬🇷</h3>
-<br/>
-<hr/>
+
 
 <div align="center">
 
