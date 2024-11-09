@@ -13,7 +13,6 @@
 
 <div align="center">
 
-## Contribution Spaceship Shooter Animation
 ![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
 <!---
 Alexis-Dim/Alexis-Dim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
