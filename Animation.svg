@@ -1,9 +1,12 @@
 <svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 350">
 
+    <!-- Background rectangle to match grid line color -->
+        <rect width="800" height="350" fill="#24292e"/>
+    
         <defs>
             <!-- Define a pattern for the grid with smaller boxes -->
             <pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse">
-                <rect x="2" y="2" width="10" height="10" fill="#151b23" rx="3" ry="3" stroke="#ffffff0d" stroke-width="1"/>
+                <rect x="2" y="2" width="10" height="10" fill="#2b3137" rx="2" ry="2"/>
             </pattern>
     
             <!-- Define bullets -->
