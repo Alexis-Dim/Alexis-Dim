@@ -1,4 +1,4 @@
-<svg width="689" height="91" viewBox="0 0 689 91" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="850" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 350">
         <defs>
             <!-- Define a pattern for the grid with smaller boxes -->
             <pattern id="grid" width="13" height="13" patternUnits="userSpaceOnUse">
@@ -50,7 +50,7 @@
         </defs>
     
         <!-- Apply the pattern to cover the grid area with exact dimensions -->
-        <rect width="689" height="91" fill="url(#grid)" x="0" y="0"/>    
+        <rect width="800" height="105" fill="url(#grid)" x="0" y="245"/>
         <!-- Green boxes with animations (Row 1(x=86,y=14), Row 2(x=R1+12,R2y=R1+12) ex.) (Fade out Difference = approx. 0.01) -->
         <rect x="98" y="26" width="10" height="10" fill="#39d353" rx="2" ry="2">
             <animate 
