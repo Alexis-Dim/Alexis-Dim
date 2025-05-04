@@ -2,7 +2,7 @@
     
         <defs>
             <!-- Define a pattern for the grid with smaller boxes -->
-            <pattern id="grid" width="13.5" height="13.5" patternUnits="userSpaceOnUse">
+            <pattern id="grid" width="14" height="14" patternUnits="userSpaceOnUse">
                 <rect x="2" y="2" width="10" height="10" fill="#151b23" rx="3" ry="3" stroke="#ffffff25" stroke-width="0.5"/>
             </pattern>
     
