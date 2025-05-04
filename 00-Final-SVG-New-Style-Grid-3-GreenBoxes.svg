@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><body>
+    <svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 350">
+
+        <defs>
+            <!-- Define a pattern for the grid with smaller boxes -->
+            <pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse">
+                <rect x="2" y="2" width="10" height="10" fill="#151b23" rx="3" ry="3" stroke="#ffffff0d" stroke-width="1"/>
+            </pattern>
+        </defs>
+    
+        <!-- Apply the pattern to cover the grid area with exact dimensions -->
+        <rect width="635" height="85" fill="url(#grid)" x="85" y="12"/>
+    
+        <!-- Green boxes with animations (Row 1(x=86,y=14), Row 2(x=R1+12,R2y=R1+12) ex.) (Fade out Difference = approx. 0.01) -->
+        <rect x="98" y="26" width="10" height="10" fill="#39d353" rx="2" ry="2">
+            <animate 
+                attributeName="opacity" 
+                values="1;1;0;0;1;1" 
+                keyTimes="0;0.034;0.04;0.99;1;1" 
+                dur="15s" 
+                begin="0s" 
+                repeatCount="indefinite" />
+        </rect>
+        
+        <rect x="146" y="38" width="10" height="10" fill="#39d353" rx="2" ry="2">
+            <animate 
+                attributeName="opacity" 
+                values="1;1;0;0;1;1" 
+                keyTimes="0;0.07;0.08;0.985;1;1" 
+                dur="15s" 
+                begin="0s" 
+                repeatCount="indefinite" />
+        </rect>
+    
+        <rect x="194" y="74" width="10" height="10" fill="#39d353" rx="2" ry="2">
+            <animate 
+                attributeName="opacity" 
+                values="1;1;0;0;1;1" 
+                keyTimes="0;0.1;0.11;0.98;1;1" 
+                dur="15s" 
+                begin="0s" 
+                repeatCount="indefinite" />
+        </rect>
+    
+    </svg>
+</body></html>
