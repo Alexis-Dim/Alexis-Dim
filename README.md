@@ -8,7 +8,7 @@
 
 <h3 align="center">A Software Developer and Tech Enthusiast in Greece 🇬🇷</h3>
 
-<div align="center">
+<div align="center" style="margin: 0; padding: 0;">
 
 ![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
 <!---
