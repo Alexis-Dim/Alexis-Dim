@@ -1,7 +1,7 @@
 <svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 350">   
     <defs>
         <!-- Define a pattern for the grid with smaller boxes -->
-        <pattern id="grid" width="13" height="13" patternUnits="userSpaceOnUse">
+        <pattern id="grid" width="13.5" height="13.5" patternUnits="userSpaceOnUse">
             <rect x="2" y="2" width="10" height="10" fill="#151b23" rx="2.5" ry="2.5" stroke="#ffffff20" stroke-width="0.5"/>
         </pattern>
 
