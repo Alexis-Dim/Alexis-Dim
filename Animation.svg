@@ -50,11 +50,11 @@
         </filter>
     </defs>
 
-    <!-- Apply the pattern to cover the grid area with exact dimensions -->
-    <rect width="689" height="93" fill="url(#grid)" x="78" y="12"/>
+    <!-- CENTERED: Apply the pattern to cover the grid area with exact dimensions -->
+    <rect width="689" height="93" fill="url(#grid)" x="51" y="12"/>
 
-    <!-- Green boxes with animations (Row 1(x=86,y=14), Row 2(x=R1+12,R2y=R1+12) ex.) (Fade out Difference = approx. 0.01) -->
-    <rect x="98" y="26" width="10" height="10" fill="#39d353" rx="2" ry="2">
+    <!-- Green boxes with animations - adjusted positions to match centered grid -->
+    <rect x="64" y="26" width="10" height="10" fill="#39d353" rx="2" ry="2">
         <animate 
             attributeName="opacity" 
             values="1;1;0;0;1;1" 
@@ -64,7 +64,7 @@
             repeatCount="indefinite" />
     </rect>
     
-    <rect x="146" y="38" width="10" height="10" fill="#39d353" rx="2" ry="2">
+    <rect x="112" y="38" width="10" height="10" fill="#39d353" rx="2" ry="2">
         <animate 
             attributeName="opacity" 
             values="1;1;0;0;1;1" 
@@ -77,15 +77,15 @@
     <!-- Spaceship image -->
     <use xlink:href="#spaceship" x="-50" y="200"/>
 
-    <!-- Path definition for the spaceship's motion - SHIFTED 40px right -->
+    <!-- Path definition for the spaceship's motion - CENTERED below grid -->
     <path id="path" d="
-        M 140 50
-        A 25 20 0 0 1 340 50
-        A 70 20 0 0 0 590 50
-        A 70 20 0 0 1 780 50
-        A 70 20 0 1 1 590 50
-        A 25 20 0 1 0 340 50
-        A 70 20 0 1 1 140 50
+        M 100 50
+        A 25 20 0 0 1 300 50
+        A 70 20 0 0 0 550 50
+        A 70 20 0 0 1 700 50
+        A 70 20 0 1 1 550 50
+        A 25 20 0 1 0 300 50
+        A 70 20 0 1 1 100 50
         " fill="none" stroke="none"/>
 
     <!-- Spaceship movement animation -->
