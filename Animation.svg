@@ -1,9 +1,7 @@
-<div align="center" style="margin: 0; padding: 0; line-height: 0;">
-
-<svg width="800" height="320" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 320">   
+<svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 350">   
     
     <!-- Background rectangle to match grid line color -->
-    <rect width="800" height="320" fill="#c525e8"/>
+    <rect width="800" height="320" fill="#24292e"/>
     
     <defs>
         <!-- Create the Grid -->
