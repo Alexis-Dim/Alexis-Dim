@@ -1,5 +1,8 @@
 <svg width="800" height="380" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 380">   
     
+    <!-- Background rectangle to match grid line color -->
+    <rect width="800" height="380" fill="#c525e8"/>
+    
     <defs>
         <!-- Create the Grid -->
         <pattern id="grid" width="13" height="13" patternUnits="userSpaceOnUse">
