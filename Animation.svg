@@ -1,5 +1,5 @@
-<svg width="800" height="320" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 320">
-    
+<svg width="800" height="320" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 320">   
+   
     <defs>
         <!-- Create the Grid -->
         <pattern id="grid" width="13" height="13" patternUnits="userSpaceOnUse">
@@ -50,9 +50,6 @@
         </filter>
     </defs>
 
-    <!-- Spaceship image -->
-    <use xlink:href="#spaceship" x="-50" y="200"/>
-
     <!-- Path definition for the spaceship's motion - CENTERED below grid -->
     <path id="path" d="
         M 70 50
@@ -63,37 +60,6 @@
         A 25 20 0 1 0 300 50
         A 70 20 0 1 1 70 50
         " fill="none" stroke="none"/>
-
-    <!-- Spaceship movement animation -->
-    <animateMotion xlink:href="#spaceship" dur="15s" repeatCount="indefinite">
-        <mpath xlink:href="#path"/>
-    </animateMotion>
-
-    <!-- Continuous shooting effect -->
-    <use xlink:href="#bullet1" x="0" y="0">
-        <animateMotion dur="15s" repeatCount="indefinite">
-            <mpath xlink:href="#path"/>
-        </animateMotion>
-    </use>
-
-    <!-- Bullet definitions -->
-    <defs>
-        <!-- First Bullet -->
-        <circle id="bullet1" cx="20" cy="160" r="5" fill="red" visibility="hidden">
-            <!-- Animate the bullet to move upwards and hit the grid -->
-            <animate attributeName="cy" from="160" to="-5" dur="0.5s" begin="3.5s" fill="freeze"/>
-            <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.01;1" dur="0.5s" begin="3.5s"/>
-        </circle>
-    </defs>
-
-<!--
-How to calc grid size and looks:
-    • Total area: width=670px, height=93px
-    • Cell size:   13×13px
-    • Columns = floor(689 / 13) = 51
-    • Rows    = floor(93  / 13) = 7
-    • Total boxes = 51 × 7 = 357
--->
 
     <!-- Create the layer that will show only the wanted grid parts -->
     <rect width="690" height="92" fill="url(#grid)" x="52" y="13"/>
@@ -230,6 +196,32 @@ How to calc grid size and looks:
             begin="0s" 
             repeatCount="indefinite" />
     </rect>
+
+    <!--Other Green Boxes-->
+    <rect x="93" y="41" width="10" height="10" fill="#39d353" rx="3" ry="3">
+        <animate 
+            attributeName="opacity" 
+            values="1;1;0;0;1;1" 
+            keyTimes="0;0.034;0.04;0.99;1;1" 
+            dur="15s" 
+            begin="0s" 
+            repeatCount="indefinite" />
+    </rect>
+
+    <!-- Spaceship image -->
+    <use xlink:href="#spaceship" x="-50" y="200"/>
+
+    <!-- Spaceship movement animation -->
+    <animateMotion xlink:href="#spaceship" dur="15s" repeatCount="indefinite">
+        <mpath xlink:href="#path"/>
+    </animateMotion>
+
+    <!-- Continuous shooting effect - MOVED AFTER GRID TO APPEAR ON TOP -->
+    <use xlink:href="#bullet1" x="0" y="0">
+        <animateMotion dur="15s" repeatCount="indefinite">
+            <mpath xlink:href="#path"/>
+        </animateMotion>
+    </use>
 
     <!-- Explosion effects -->
     <!-- Explosion 1 -->
