@@ -2,8 +2,9 @@
 
     <defs>
         <!-- Define a pattern for the grid with 2px spacing -->
-        <pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse">
-            <rect x="1" y="1" width="10" height="10" fill="#161b22" rx="2" ry="2"/>
+        <!-- Define a pattern for the grid with 4px spacing -->
+        <pattern id="grid" width="14" height="14" patternUnits="userSpaceOnUse">
+            <rect x="2" y="2" width="10" height="10" fill="#161b22" rx="2" ry="2"/>
         </pattern>
 
         <!-- Define bullets -->
@@ -51,8 +52,9 @@
     </defs>
 
     <!-- Apply the pattern to cover the resized and centered grid area -->
-    <rect width="624" height="84" fill="url(#grid)" x="88" y="12"/>
-
+    <!-- Apply the pattern to the correctly sized and centered grid area -->
+    <rect width="728" height="98" fill="url(#grid)" x="36" y="12"/>
+    
     <!-- Green boxes with animations (recalculated positions for centered 12px grid) -->
     <rect x="100" y="26" width="10" height="10" fill="#39d353" rx="2" ry="2">
         <animate 
@@ -1024,3 +1026,4 @@
     />
 
 </svg>
+
