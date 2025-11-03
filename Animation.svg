@@ -3,8 +3,8 @@
     <defs>
         <!-- Define a pattern for the grid with 2px spacing -->
         <!-- Define a pattern for the grid with 4px spacing -->
-        <pattern id="grid" width="14" height="14" patternUnits="userSpaceOnUse">
-            <rect x="1" y="2" width="10" height="10" fill="#161b22" rx="2" ry="2"/>
+        <pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse">
+            <rect x="1" y="1" width="10" height="10" fill="#161b22" rx="2" ry="2"/>
         </pattern>
 
         <!-- Define bullets -->
@@ -1026,5 +1026,6 @@
     />
 
 </svg>
+
 
 
