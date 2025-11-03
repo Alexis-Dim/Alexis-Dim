@@ -53,7 +53,7 @@
 
     <!-- Apply the pattern to cover the resized and centered grid area -->
     <!-- Apply the pattern to the correctly sized and centered grid area -->
-    <rect width="728" height="98" fill="url(#grid)" x="35" y="12"/>
+    <rect width="728" height="90" fill="url(#grid)" x="37" y="12"/>
     
     <!-- Green boxes with animations (recalculated positions for centered 12px grid) -->
     <rect x="100" y="26" width="10" height="10" fill="#39d353" rx="2" ry="2">
