@@ -51,7 +51,7 @@
         </defs>
     
         <!-- Apply the pattern to cover the grid area with exact dimensions -->
-        <rect width="635" height="85" fill="url(#grid)" x="85" y="12"/>
+        <rect width="635" height="85" fill="url(#grid)" x="86" y="13"/>
     
         <!-- Green boxes with animations (Row 1(x=86,y=14), Row 2(x=R1+12,R2y=R1+12) ex.) (Fade out Difference = approx. 0.01) -->
         <rect x="98" y="26" width="10" height="10" fill="#39d353" rx="2" ry="2">
@@ -1032,6 +1032,7 @@
         
 
     </svg>
+
 
 
 
