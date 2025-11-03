@@ -2,7 +2,7 @@
 
         <defs>
             <!-- Define a pattern for the grid with smaller boxes -->
-            <pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse">
+            <pattern id="grid" x="1" y="1" width="12" height="12" patternUnits="userSpaceOnUse">
                 <rect x="1.5" y="1.5" width="9" height="9" fill="#161b22" rx="2" ry="2" stroke="#0d1117" stroke-width="1"/>
             </pattern>
     
@@ -1032,6 +1032,7 @@
         
 
     </svg>
+
 
 
 
