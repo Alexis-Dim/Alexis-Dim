@@ -1,6 +1,6 @@
 <svg width="100%" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 350">
-    
-<defs>
+     
+    <defs>
     <!-- Define a pattern for the grid with 3px spacing -->
     <pattern id="grid" width="13" height="13" patternUnits="userSpaceOnUse">
         <rect x="1.5" y="1.5" width="10" height="10" fill="#161b22" rx="2" ry="2"/>
@@ -54,17 +54,18 @@
 <rect width="689" height="91" fill="url(#grid)" x="53" y="12"/>
 
 <!-- Green boxes with animations (positions for 13px grid) -->
-<rect x="71" y="27" width="10" height="10" fill="#39d353" rx="2" ry="2">
+ 
+<rect x="66.5" y="27.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
-        values="1;1;0;0;1;1" 
-        keyTimes="0;0.034;0.04;0.99;1;1" 
+        values="1;1;0;0;1;1"
+        keyTimes="0;0.015;0.02;0.99;1;1" 
         dur="15s" 
         begin="0s" 
-        repeatCount="indefinite" />
+        repeatCount="indefinite"/>
 </rect>
 
-<rect x="123" y="40" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="144.5" y="40.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -74,7 +75,7 @@
         repeatCount="indefinite" />
 </rect>
 
-<rect x="175" y="79" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="196.5" y="79.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -84,7 +85,7 @@
         repeatCount="indefinite" />
 </rect>
 
-<rect x="227" y="40" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="248.5" y="40.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -94,7 +95,7 @@
         repeatCount="indefinite" />
 </rect>
 
-<rect x="266" y="40" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="274.5" y="66.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -104,7 +105,7 @@
         repeatCount="indefinite" />
 </rect>
 
-<rect x="331" y="27" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="326.5" y="27.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -114,7 +115,7 @@
         repeatCount="indefinite" />
 </rect>
 
-<rect x="383" y="79" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="378.5" y="79.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -124,7 +125,7 @@
         repeatCount="indefinite" />
 </rect>
 
-<rect x="448" y="53" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="443.5" y="53.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -134,7 +135,7 @@
         repeatCount="indefinite" />
 </rect>
 
-<rect x="487" y="40" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="482.5" y="40.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -144,7 +145,7 @@
         repeatCount="indefinite" />
 </rect>
 
-<rect x="526" y="66" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="521.5" y="66.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -154,7 +155,7 @@
         repeatCount="indefinite" />
 </rect>
 
-<rect x="578" y="53" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="573.5" y="53.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -164,7 +165,7 @@
         repeatCount="indefinite" />
 </rect>
 
-<rect x="643" y="27" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="625.5" y="27.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -174,7 +175,7 @@
         repeatCount="indefinite" />
 </rect>
 
-<rect x="695" y="53" width="10" height="10" fill="#39d353" rx="2" ry="2">
+<rect x="677.5" y="53.5" width="10" height="10" fill="#39d353" rx="2" ry="2">
     <animate 
         attributeName="opacity" 
         values="1;1;0;0;1;1" 
@@ -183,6 +184,7 @@
         begin="0s" 
         repeatCount="indefinite" />
 </rect>
+
 
 <!-- Spaceship image -->
 <use xlink:href="#spaceship" x="-50" y="200"/>
@@ -220,16 +222,17 @@
     </circle>
 </defs>
 
+
 <!-- Explosion effects (recalculated positions) -->
 <!-- Explosion 1 -->
-<circle id="explosion1" cx="76" cy="32" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
+<circle id="explosion1" cx="72" cy="34" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
 <animate 
     xlink:href="#explosion1" 
     attributeName="r" 
     values="0;50;0" 
     keyTimes="0;0.25;1" 
     dur="15s" 
-    begin="0.5s" 
+    begin="0.2s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -238,7 +241,7 @@
     values="white;yellow;orange;red" 
     keyTimes="0;0.2;0.5;1" 
     dur="15s" 
-    begin="0.5s" 
+    begin="0.2s" 
     repeatCount="indefinite"
 />
 <animate 
@@ -247,7 +250,7 @@
     values="1;0;0" 
     keyTimes="0;0.2;1" 
     dur="15s" 
-    begin="0.5s" 
+    begin="0.2s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -256,12 +259,12 @@
     values="1;0;0" 
     keyTimes="0;0.2;1" 
     dur="15s" 
-    begin="0.5s" 
+    begin="0.2s" 
     repeatCount="indefinite" 
 />
     
 <!-- Explosion 2 -->
-<circle id="explosion2" cx="128" cy="45" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
+<circle id="explosion2" cx="150" cy="45" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
 <animate 
     xlink:href="#explosion2" 
     attributeName="r" 
@@ -300,7 +303,7 @@
 />
 
 <!-- Explosion 3 -->
-<circle id="explosion3" cx="180" cy="84" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
+<circle id="explosion3" cx="200" cy="84" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
 <animate 
     xlink:href="#explosion3" 
     attributeName="r" 
@@ -339,7 +342,7 @@
 />
 
 <!-- Explosion 4 -->
-<circle id="explosion4" cx="232" cy="45" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="15" filter="url(#explosionFilter)" />
+<circle id="explosion4" cx="252" cy="45" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="15" filter="url(#explosionFilter)" />
 <animate 
     xlink:href="#explosion4" 
     attributeName="r" 
@@ -378,14 +381,14 @@
 />
 
 <!-- Explosion 5 -->
-<circle id="explosion5" cx="271" cy="45" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
+<circle id="explosion5" cx="280" cy="72" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
 <animate 
     xlink:href="#explosion5" 
     attributeName="r" 
     values="0;50;0" 
     keyTimes="0;0.25;1" 
     dur="15s" 
-    begin="2.5s" 
+    begin="2.7s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -394,7 +397,7 @@
     values="white;yellow;orange;red" 
     keyTimes="0;0.2;0.5;1" 
     dur="15s" 
-    begin="2.5s" 
+    begin="2.7s" 
     repeatCount="indefinite"
 />
 <animate 
@@ -403,7 +406,7 @@
     values="1;0;0" 
     keyTimes="0;0.2;1" 
     dur="15s" 
-    begin="2.5s" 
+    begin="2.7s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -412,7 +415,7 @@
     values="1;0;0" 
     keyTimes="0;0.2;1" 
     dur="15s" 
-    begin="2.5s" 
+    begin="2.7s" 
     repeatCount="indefinite" 
 />
 
@@ -424,7 +427,7 @@
     values="0;50;0" 
     keyTimes="0;0.25;1" 
     dur="15s" 
-    begin="3.0s" 
+    begin="3.2s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -433,7 +436,7 @@
     values="white;yellow;orange;red" 
     keyTimes="0;0.2;0.5;1" 
     dur="15s" 
-    begin="3.0s" 
+    begin="3.2s" 
     repeatCount="indefinite"
 />
 <animate 
@@ -442,7 +445,7 @@
     values="1;0;0" 
     keyTimes="0;0.2;1" 
     dur="15s" 
-    begin="3.0s" 
+    begin="3.2s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -451,19 +454,19 @@
     values="1;0;0" 
     keyTimes="0;0.2;1" 
     dur="15s" 
-    begin="3.0s" 
+    begin="3.2s" 
     repeatCount="indefinite" 
 />
 
 <!-- Explosion 7 -->
-<circle id="explosion7" cx="388" cy="84" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
+<circle id="explosion7" cx="383" cy="84" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
 <animate 
     xlink:href="#explosion7" 
     attributeName="r" 
     values="0;50;0" 
     keyTimes="0;0.25;1" 
     dur="15s" 
-    begin="3.5s" 
+    begin="3.7s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -472,7 +475,7 @@
     values="white;yellow;orange;red" 
     keyTimes="0;0.2;0.5;1" 
     dur="15s" 
-    begin="3.5s" 
+    begin="3.7s" 
     repeatCount="indefinite"
 />
 <animate 
@@ -481,7 +484,7 @@
     values="1;0;0" 
     keyTimes="0;0.2;1" 
     dur="15s" 
-    begin="3.5s" 
+    begin="3.7s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -490,12 +493,12 @@
     values="1;0;0" 
     keyTimes="0;0.2;1" 
     dur="15s" 
-    begin="3.5s" 
+    begin="3.7s" 
     repeatCount="indefinite" 
 />
 
 <!-- Explosion 8 -->
-<circle id="explosion8" cx="453" cy="58" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
+<circle id="explosion8" cx="450" cy="58" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
 <animate 
     xlink:href="#explosion8" 
     attributeName="r" 
@@ -651,7 +654,7 @@
 />
 
 <!-- Explosion 12 -->
-<circle id="explosion12" cx="648" cy="32" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="25" filter="url(#explosionFilter)" />
+<circle id="explosion12" cx="629" cy="32" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="25" filter="url(#explosionFilter)" />
 <animate 
     xlink:href="#explosion12" 
     attributeName="r" 
@@ -690,7 +693,7 @@
 />
 
 <!-- Explosion 13 -->
-<circle id="explosion13" cx="700" cy="58" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
+<circle id="explosion13" cx="680" cy="58" r="0" fill="url(#explosionGradient)" stroke="red" stroke-width="5" filter="url(#explosionFilter)" />
 <animate 
     xlink:href="#explosion13" 
     attributeName="r" 
@@ -730,7 +733,7 @@
 
 <!-- Sound Waves (recalculated positions) -->
 <!-- Wave 2.1 -->
-<circle id="wave2.1" cx="153" cy="43" r="0" stroke="white" stroke-width="5" fill="none" filter="url(#soundWaveFilter)" />
+<circle id="wave2.1" cx="150" cy="45" r="0" stroke="white" stroke-width="5" fill="none" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#wave2.1" 
     attributeName="r" 
@@ -751,7 +754,7 @@
 />
 
 <!-- Wave 2.2 -->
-<circle id="wave2.2" cx="153" cy="43" r="0" stroke="white" stroke-width="2" fill="none" filter="url(#soundWaveFilter)" />
+<circle id="wave2.2" cx="150" cy="45" r="0" stroke="white" stroke-width="2" fill="none" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#wave2.2" 
     attributeName="r" 
@@ -772,7 +775,7 @@
 />
 
 <!-- Wave 2.3 -->
-<circle id="wave2.3" cx="153" cy="43" r="0" stroke="white" stroke-width="2" fill="none" filter="url(#soundWaveFilter)" />
+<circle id="wave2.3" cx="150" cy="45" r="0" stroke="white" stroke-width="2" fill="none" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#wave2.3" 
     attributeName="r" 
@@ -793,7 +796,7 @@
 />
 
 <!-- Sound Wave 4.1 -->
-<circle id="soundWave4.1" cx="249" cy="43" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+<circle id="soundWave4.1" cx="252" cy="45" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#soundWave4.1" 
     attributeName="r" 
@@ -814,14 +817,14 @@
 />
 
 <!-- Sound Wave 5.1 -->
-<circle id="soundWave5.1" cx="285" cy="43" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+<circle id="soundWave5.1" cx="280" cy="72" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#soundWave5.1" 
     attributeName="r" 
     values="0;70;140;0" 
     keyTimes="0;0.2;0.5;1" 
     dur="15s" 
-    begin="3.5s" 
+    begin="3.7s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -830,19 +833,19 @@
     values="1;0;0" 
     keyTimes="0;0.5;1" 
     dur="15s" 
-    begin="3.5s" 
+    begin="3.7s" 
     repeatCount="indefinite" 
 />
 
 <!-- Wave 5.2 -->
-<circle id="soundWave5.2" cx="285" cy="43" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+<circle id="soundWave5.2" cx="280" cy="72" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#soundWave5.2" 
     attributeName="r" 
     values="0;80;160;0" 
     keyTimes="0;0.2;0.5;1" 
     dur="15s" 
-    begin="2.7s" 
+    begin="2.9s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -851,19 +854,19 @@
     values="1;0;0" 
     keyTimes="0;0.5;1" 
     dur="15s" 
-    begin="2.7s" 
+    begin="2.9s" 
     repeatCount="indefinite" 
 />
 
 <!-- Wave 5.3 -->
-<circle id="soundWave5.3" cx="285" cy="43" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+<circle id="soundWave5.3" cx="280" cy="72" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#soundWave5.3" 
     attributeName="r" 
     values="0;90;180;0" 
     keyTimes="0;0.2;0.5;1" 
     dur="15s" 
-    begin="2.5s" 
+    begin="2.7s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -872,12 +875,12 @@
     values="1;0;0" 
     keyTimes="0;0.5;1" 
     dur="15s" 
-    begin="2.5s" 
+    begin="2.7s" 
     repeatCount="indefinite" 
 />
 
 <!-- Sound Wave 8.1 -->
-<circle id="soundWave8.1" cx="453" cy="55" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+<circle id="soundWave8.1" cx="450" cy="58" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#soundWave8.1" 
     attributeName="r" 
@@ -898,7 +901,7 @@
 />
 
 <!-- Wave 8.3 -->
-<circle id="soundWave8.3" cx="453" cy="55" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+<circle id="soundWave8.3" cx="450" cy="58" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#soundWave8.3" 
     attributeName="r" 
@@ -919,14 +922,14 @@
 />
 
 <!-- Sound Wave 11.1 -->
-<circle id="soundWave11.1" cx="573" cy="55" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+<circle id="soundWave11.1" cx="583" cy="58" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#soundWave11.1" 
     attributeName="r" 
     values="0;35;110;0" 
     keyTimes="0;0.2;0.5;1" 
     dur="15s" 
-    begin="6s" 
+    begin="6.2s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -935,19 +938,19 @@
     values="1;0;0" 
     keyTimes="0;0.5;1" 
     dur="15s" 
-    begin="6s" 
+    begin="6.2s" 
     repeatCount="indefinite" 
 />
 
 <!-- Wave 11.2 -->
-<circle id="soundWave11.2" cx="573" cy="55" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+<circle id="soundWave11.2" cx="583" cy="58" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#soundWave11.2" 
     attributeName="r" 
     values="0;60;120;0" 
     keyTimes="0;0.2;0.5;1" 
     dur="15s" 
-    begin="5.7s" 
+    begin="5.9s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -956,19 +959,19 @@
     values="1;0;0" 
     keyTimes="0;0.5;1" 
     dur="15s" 
-    begin="5.7s" 
+    begin="5.9s" 
     repeatCount="indefinite" 
 />
 
 <!-- Wave 11.3 -->
-<circle id="soundWave11.3" cx="573" cy="55" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+<circle id="soundWave11.3" cx="583" cy="58" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#soundWave11.3" 
     attributeName="r" 
     values="0;70;140;0" 
     keyTimes="0;0.2;0.5;1" 
     dur="15s" 
-    begin="5.4s" 
+    begin="5.6s" 
     repeatCount="indefinite" 
 />
 <animate 
@@ -977,12 +980,12 @@
     values="1;0;0" 
     keyTimes="0;0.5;1" 
     dur="15s" 
-    begin="5.4s" 
+    begin="5.6s" 
     repeatCount="indefinite" 
 />
 
 <!-- Sound Wave 12.1 -->
-<circle id="soundWave12.1" cx="633" cy="31" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+<circle id="soundWave12.1" cx="629" cy="32" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#soundWave12.1" 
     attributeName="r" 
@@ -1003,7 +1006,7 @@
 />
 
 <!-- Sound Wave 13.1 -->
-<circle id="soundWave13.1" cx="681" cy="55" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
+<circle id="soundWave13.1" cx="680" cy="58" r="0" fill="none" stroke="white" stroke-width="2" filter="url(#soundWaveFilter)" />
 <animate 
     xlink:href="#soundWave13.1" 
     attributeName="r" 
@@ -1022,4 +1025,5 @@
     begin="6.5s" 
     repeatCount="indefinite" 
 />
+
 </svg>
