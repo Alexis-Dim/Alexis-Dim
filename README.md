@@ -9,13 +9,7 @@
 <h3 align="center">A Software Developer and Tech Enthusiast in Greece 🇬🇷</h3>
 
 <div align="center" style="margin: 0; padding: 0;">
-    
- <video autoplay loop muted playsinline width="600"
-src="https://raw.githubusercontent.com/Alexis-Dim/Alexis-Dim/main/Dark_Theme.webm">
-</video>
-
-
-
+  
 ![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
 <!---
 Alexis-Dim/Alexis-Dim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
