@@ -9,7 +9,7 @@
 <h3 align="center">A Software Developer and Tech Enthusiast in Greece 🇬🇷</h3>
 
 <div align="center" style="margin: 0; padding: 0;">
-<video autoplay loop muted playsinline width="600" src="assets/dark.webm"></video>
+<video autoplay loop muted playsinline width="600" src="assets/Dark_Theme.webm"></video>
 
 <!---
 ![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
