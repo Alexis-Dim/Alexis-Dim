@@ -15,7 +15,7 @@ src="https://raw.githubusercontent.com/Alexis-Dim/Alexis-Dim/main/Dark_Theme.web
 </video>
 
 
-<!---
+
 ![Spaceship Animation](https://github.com/Alexis-Dim/Alexis-Dim/raw/main/Animation.svg)
 <!---
 Alexis-Dim/Alexis-Dim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
