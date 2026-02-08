@@ -15,11 +15,15 @@
     </style>
 
     <defs>
-    <!-- Dark mode grid -->
-    <rect class="dark-mode" width="689" height="91" fill="url(#grid-dark)" x="53" y="12"/>
+    <!-- Dark mode pattern -->
+    <pattern id="grid-dark" width="13" height="13" patternUnits="userSpaceOnUse">
+        <rect x="1.5" y="1.5" width="10" height="10" fill="#151b23" rx="2" ry="2"/>
+    </pattern>
 
-    <!-- Light mode grid -->
-    <rect class="light-mode" width="689" height="91" fill="url(#grid-light)" x="53" y="12"/>
+    <!-- Light mode pattern -->
+    <pattern id="grid-light" width="13" height="13" patternUnits="userSpaceOnUse">
+        <rect x="1.5" y="1.5" width="10" height="10" fill="#eff2f5" rx="2" ry="2"/>
+    </pattern>
 
     <!-- Define bullets -->
     <circle id="bullet1" cx="-30" r="5" fill="red">
@@ -40,7 +44,7 @@
         -12 -16 -13 -27 -4 -10 9 -11 14 -2 20 7 4 9 14 6 23 -4 9 -4 23 0 32 9 24 24
         -5 16 -33z m-40 -63 c7 -29 1 -24 -17 11 -12 23 -12 28 -2 20 8 -7 16 -21 19
         -31z m81 10 c-17 -33 -27 -40 -17 -12 6 17 23 42 28 42 2 0 -3 -13 -11 -30z"
-        fill="var(--ship-color)"/> <!-- Theme-adaptive ship -->
+        class="ship-color"/> <!-- Theme-adaptive ship -->
     </g>
 
     <!-- Gradient for explosion effect -->
