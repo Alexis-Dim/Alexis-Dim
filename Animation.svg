@@ -1,16 +1,14 @@
 <svg width="100%" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 350">
         
     <style>
-        :root {
-            --ship-color: #1f1f1f;
-            --grid-bg: #151b23;
-        }
-        
+        /* Default colors for dark mode */
+        .ship-color { fill: #1f1f1f; }
+        .grid-bg { fill: #151b23; }
+    
+        /* Light mode colors */
         @media (prefers-color-scheme: light) {
-            :root {
-                --ship-color: #D3D3D3;
-                --grid-bg: #eff2f5;
-            }
+            .ship-color { fill: #D3D3D3; }
+            .grid-bg { fill: #eff2f5; }
         }
     </style>
 
@@ -1048,5 +1046,6 @@
 />
 
 </svg>
+
 
 
